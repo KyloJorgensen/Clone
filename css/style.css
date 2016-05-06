@@ -119,19 +119,30 @@ button {
     border-radius: 0.25rem;
 }
 
-main {}
+.main-font {
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	text-align: center;
+	font-weight: 300;
+}
 
-main div {}
+main h2 {
+	font-size: 2.75rem;
+}
 
-main div h1 {}
+main div ul {
+	padding: 0;
+}
 
-main div ul {}
+main div ul li {
+	display: inline-block;
+	width: 33%;
+}
 
-main div ul li {}
+main div ul li img {
+	margin: 0 auto;
 
-main div ul li h1 {}
-
-main div ul li p {}
+}
 
 footer {}
 
