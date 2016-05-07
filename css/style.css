@@ -13,6 +13,7 @@ html {
 	-webkit-font-smoothing: antialiased;
 }
 
+/*
 body {
 	background-color: LightGrey;
 }
@@ -20,6 +21,8 @@ body {
 p {
 	border: 1px solid Chocolate;
 }
+
+*/
 
 .container{
 	width: 57.5625rem;
@@ -75,10 +78,6 @@ p {
 }
 
 header {
-	
-}
-
-header {
 	background-image:  url("../images/first-background.jpg");
 	background-repeat: no-repeat;
 	background-position: center bottom;
@@ -126,6 +125,9 @@ button {
 	font-weight: 300;
 }
 
+main {
+	padding-bottom: 5rem;
+}
 main h2 {
 	font-size: 2.75rem;
 }
@@ -156,9 +158,47 @@ main div ul li div h3 {
 
 footer {}
 
-footer p {}
+footer div {
+	text-align: center;
+}
+ 
+hr {
+	border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem 0;
+}
 
-footer ul {}
 
-footer ul li {}
+.footer-font {
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	text-align: center;
+	font-size: 100%;
+}
 
+footer div h5 {
+	font-weight: 400;
+}
+
+footer ul {
+	padding-left: 0;
+}
+
+footer ul li {
+
+	display: inline-block;
+	height: 2.5rem;
+	width: 2.5rem;
+	border-radius: 1.25rem;
+	border: 1px solid #eaebec;
+}
+
+footer ul li img {
+	padding-top: 5px;
+}
+
+footer div h1 {
+	color: #838994;
+	font-weight: 300;
+	font-size: 0.9rem;
+}
