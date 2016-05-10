@@ -7,22 +7,9 @@ html {
 
 .roboto{
 	font-family: 'Roboto', sans-serif;
-	font-size: 1em;
-	color: #838994;
 	letter-spacing: 0.03em;
 	-webkit-font-smoothing: antialiased;
 }
-
-/*
-body {
-	background-color: LightGrey;
-}
-
-p {
-	border: 1px solid Chocolate;
-}
-
-*/
 
 .container{
 	width: 57.5625rem;
@@ -30,52 +17,53 @@ p {
 }
 
 /* Navigation Section */ 
-.top-navigation {
+nav {
 	width: 100%;
 	height: 4.375em;
 	position: fixed;
 	background-color: #FFF;
 	top: 0;
 	z-index: 9999;
+
 }
 
-.top-navigation > .content {
+nav div {
 	height: 4.375em;
 	padding: 0 0.9375em;
 }
 
 
-.top-navigation .links {
+nav ul {
 	float: right;
-	font-family: 'Roboto', sans-serif;
 	font-size: 1em;
 	margin-top: 1.5625em;
-	color: #838994;
-	letter-spacing: 0.03em;
-	-webkit-font-smoothing: antialiased;
 }
 
 
-.top-navigation .links li{
+nav ul li{
 	display: inline;
 	margin-left: 1.5625em;
+	font-size: 1em;
+	color: #838994;
 }
 
-.top-navigation .links > .active {
+nav ul > .active {
 	color: #4c5058;
 	font-weight: 500;
 }
 
-.top-navigation .links li:hover {
+nav ul li:hover {
 	cursor: pointer;
 	color: #333333;
 }
 
-.top-navigation .logo {
+nav img {
 	height: 4.375em;
 	width: 1.625em;
-	/*margin-top: 0.875em*/
 }
+
+/* Introduction */
+
 
 header {
 	background-image:  url("../images/first-background.jpg");
@@ -86,30 +74,28 @@ header {
 }
 
 .header-font{
-	font-family: 'Roboto', sans-serif;
 	color: #FFF;
-	-webkit-font-smoothing: antialiased;
 	text-align: center;
 	margin: 0;
 	font-weight: 300;
 }
 
-.first {
+header h1 {
 	padding-top: 17.5rem;
 	font-size: 3.125rem;
 
 }
 
-.second {
+header h3 {
 	padding-top: 1.25rem;
 	font-size: 1.563rem;
 }
 
-.buttons {
+header div {
 	padding-top: 1.5625rem;
 }
 
-button {
+header div button {
 	border: 0em solid red;
 	padding: 1em 1.5em;
 	background-color: #f15a29;
@@ -118,18 +104,19 @@ button {
     border-radius: 0.25rem;
 }
 
-.main-font {
-	font-family: 'Roboto', sans-serif;
-	-webkit-font-smoothing: antialiased;
-	text-align: center;
-	font-weight: 300;
-}
-
 main {
 	padding-bottom: 5rem;
+	margin: 10rem 0rem;
 }
+
 main h2 {
 	font-size: 2.75rem;
+	font-weight: 300;
+	text-align: center;
+}
+
+main div {
+	padding: 0;
 }
 
 main div ul {
@@ -140,20 +127,14 @@ main div ul li {
 	display: inline-block;
 	width: 33%;
 	margin: 0 auto;
-}
-
-main div ul li img {
-	
-}
-
-main div ul li div {
 	text-align: center;
-	margin: 0 auto;
 }
 
-main div ul li div h3 {
+main div ul li h3 {
 	font-weight: 400;
     font-size: 1.563rem;
+    font-weight: 400;
+    text-align: center;
 }
 
 footer {}
@@ -168,16 +149,9 @@ hr {
     margin: 1.313rem 0;
 }
 
-
-.footer-font {
-	font-family: 'Roboto', sans-serif;
-	-webkit-font-smoothing: antialiased;
-	text-align: center;
-	font-size: 100%;
-}
-
 footer div h5 {
 	font-weight: 400;
+	font-size: 100%;
 }
 
 footer ul {
@@ -190,11 +164,23 @@ footer ul li {
 	height: 2.5rem;
 	width: 2.5rem;
 	border-radius: 1.25rem;
-	border: 1px solid #eaebec;
+	border: 0.0625rem solid #eaebec;
+	cursor: pointer;
 }
 
-footer ul li img {
-	padding-top: 5px;
+footer ul li i {
+	padding-top: 11px;
+}
+
+.fa-twitter {
+	color: #55acee;
+}
+
+.fa-facebook {
+	color: #4c66a4;
+}
+.fa-instagram {
+	color: #3f729b;
 }
 
 footer div h1 {
