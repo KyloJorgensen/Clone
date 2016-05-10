@@ -1,11 +1,14 @@
 html {
   box-sizing: border-box;
 }
-*, *:before, *:after {
+
+*, 
+*:before, 
+*:after {
   box-sizing: inherit;
 }
 
-.roboto{
+body {
 	font-family: 'Roboto', sans-serif;
 	letter-spacing: 0.03em;
 	-webkit-font-smoothing: antialiased;
@@ -24,7 +27,6 @@ nav {
 	background-color: #FFF;
 	top: 0;
 	z-index: 9999;
-
 }
 
 nav div {
@@ -71,9 +73,9 @@ header {
 	background-position: center bottom;
 	background-size: cover;
 	height: 45.9375em;
-}
 
-.header-font{
+}
+header * {
 	color: #FFF;
 	text-align: center;
 	margin: 0;
@@ -104,6 +106,8 @@ header div button {
     border-radius: 0.25rem;
 }
 
+/* Main Section */
+
 main {
 	padding-bottom: 5rem;
 	margin: 10rem 0rem;
@@ -130,12 +134,19 @@ main div ul li {
 	text-align: center;
 }
 
+main div ul li{
+	height:127px;
+	width: 127px;
+}
+
 main div ul li h3 {
 	font-weight: 400;
     font-size: 1.563rem;
     font-weight: 400;
     text-align: center;
 }
+
+/* Footer Section */
 
 footer {}
 
