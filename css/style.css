@@ -132,6 +132,7 @@ main div ul li {
 	width: 33%;
 	margin: 0 auto;
 	text-align: center;
+    float: left;
 }
 
 main div ul li img{
